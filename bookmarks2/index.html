@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark</title>
+
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="assets/css/load__card.css">
+    <link rel="stylesheet" href="assets/css/nav.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/card.css">
+    <link rel="stylesheet" href="assets/css/load__category.css">
+</head>
+
+<body>
+    <nav class="navigation">
+        <div class="navigation__section" id="navigation__section">
+            <svg height="48" viewBox="0 0 48 48" class="btn-add" button-add-card>
+                <path d="M0 0h48v48H0z" fill="none" />
+                <path
+                    d="M24 4C12.95 4 4 12.95 4 24s8.95 20 20 20 20-8.95 20-20S35.05 4 24 4zm10 22h-8v8h-4v-8h-8v-4h8v-8h4v8h8v4z" />
+            </svg>
+        </div>
+    </nav>
+
+    <main class="main">
+        <header class="main__head">
+
+            <div class="main__head__search">
+
+            </div>
+
+        </header>
+
+        <section class="main__cards" id="main__cards">
+
+
+        </section>
+    </main>
+
+    <section class="sectionNew management" id="sectionNew">
+
+        <div class="sectionNew__newCard">
+
+            <div class="sectionNew__head">
+                <svg viewBox="0 0 32 32" class="btn-exit" btn-close-card>
+                    <defs>
+                        <style>
+                            .cls-1 {
+                                fill: none;
+                            }
+                        </style>
+                    </defs>
+                    <title />
+                    <g data-name="Layer 2" id="Layer_2">
+                        <path
+                            d="M4,29a1,1,0,0,1-.71-.29,1,1,0,0,1,0-1.42l24-24a1,1,0,1,1,1.42,1.42l-24,24A1,1,0,0,1,4,29Z" />
+                        <path
+                            d="M28,29a1,1,0,0,1-.71-.29l-24-24A1,1,0,0,1,4.71,3.29l24,24a1,1,0,0,1,0,1.42A1,1,0,0,1,28,29Z" />
+                    </g>
+                    <g id="frame">
+                        <rect class="cls-1" height="32" width="32" />
+                    </g>
+                </svg>
+            </div>
+
+            <div class="entry">
+                <label for="url">Url</label>
+                <input type="text" id="input-url">
+            </div>
+
+            <div class="entry">
+                <label for="category">Category</label>
+                <div class="divSelect">
+
+                <select name="" id="select-category">
+                </select>
+
+                <svg class="btn-category" height="48" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                    btn-newCategory>
+                    <path
+                        d="M18,17 L16,17 L16,15 L18,15 L18,13 L20,13 L20,15 L22,15 L22,17 L20,17 L20,19 L18,19 L18,17 Z M4,19 L4,17 L14,17 L14,19 L4,19 Z M4,15 L4,13 L14,13 L14,15 L4,15 Z M4,11 L4,9 L19,9 L19,11 L4,11 Z M4,7 L4,5 L19,5 L19,7 L4,7 Z"
+                        fill-rule="evenodd" />
+                </svg>
+            </div>
+        </div>
+
+        <div class="entry">
+            <label for="image">Image:</label>
+            <input type="text" placeholder="insert the route" id="input-img">
+        </div>
+
+        <div id="btn-add-new">
+            <svg class="btn-add-card" height="48" viewBox="0 0 48 48" width="48" btn-add-newCard>
+                <path d="M38 26h-12v12h-4v-12h-12v-4h12v-12h4v12h12v4z" />
+                <path d="M0 0h48v48h-48z" fill="none" />
+            </svg>
+        </div>
+
+        </div>
+
+    </section>
+
+    <section class="sectionNew management" id="sectionNewCategory">
+        <div class="sectionNew__org">
+        <div class="new__category sectionNew__newCard">
+            <div class="sectionNew__head">
+                <svg viewBox="0 0 32 32" class="btn-exit" btn-close-category>
+                    <defs>
+                        <style>
+                            .cls-1 {
+                                fill: none;
+                            }
+                        </style>
+                    </defs>
+                    <title />
+                    <g data-name="Layer 2" id="Layer_2">
+                        <path
+                            d="M4,29a1,1,0,0,1-.71-.29,1,1,0,0,1,0-1.42l24-24a1,1,0,1,1,1.42,1.42l-24,24A1,1,0,0,1,4,29Z" />
+                        <path
+                            d="M28,29a1,1,0,0,1-.71-.29l-24-24A1,1,0,0,1,4.71,3.29l24,24a1,1,0,0,1,0,1.42A1,1,0,0,1,28,29Z" />
+                    </g>
+                    <g id="frame">
+                        <rect class="cls-1" height="32" width="32" />
+                    </g>
+                </svg>
+            </div>
+            <div class="entry">
+                <input type="color" id="input-color-category" >
+            </div>
+            <div id="btn-add-new">
+                <svg class="btn-add-card" height="48" viewBox="0 0 48 48" width="48" btn-add-newCategory>
+                    <path d="M38 26h-12v12h-4v-12h-12v-4h12v-12h4v12h12v4z" />
+                    <path d="M0 0h48v48h-48z" fill="none" />
+                </svg>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <script src="script.js" type="module"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+.card{
+  background-image: url("../img/backgrounds/facebook.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  width: 180px;
+  height: 230px;
+  border-radius: 10px;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.name_card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-content: center;
+  width: 100%;
+  height: 10%;
+}
+
+.name_site{
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 2px rgb(35, 35, 35);
+}
+
+.url-site{
+  width: 180px;
+  height: 230px;
+  text-decoration: none;
+
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.card:hover{
+  filter: opacity(0.8);
+}
+
+.div-iconRemove{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.div-iconRemove > :hover{
+  background-color: red;
+  fill: white;
+  cursor: pointer;
+  border-radius: 50%;
+}

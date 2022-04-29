@@ -1,0 +1,73 @@
+.sectionNew {
+  width: 98vw;
+  height: 100vh;
+  position: absolute;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionNew__newCard {
+  background-color: #2A2550;
+  width: 35vw;
+  height: 60vh;
+  padding: 1rem;
+  border-radius: 20px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: #FCFFE7;
+  box-shadow: 1rem 1rem 2rem rgba(108, 9, 255, 0.1);
+}
+
+.entry {
+  width: 80%;
+  font-size: 1.4em;
+}
+
+.entry input,
+.entry select {
+  width: 100%;
+  font-size: 1em;
+}
+
+.btn-exit{
+  width: 2rem;
+  float: right;
+  fill: #FCFFE7;
+}
+
+.sectionNew__head{
+    width: 100%;
+}
+
+.management{
+  display: none !important;
+}
+
+.divSelect{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.entry select{
+  height: 1.5em;
+    width: 90%;
+    margin-left: 2em;
+}
+
+.btn-category{
+  fill: #FCFFE7;
+}
+
+#select-category option:checked{
+  font-weight:bold ;
+  outline: none;
+  cursor: pointer;
+}
