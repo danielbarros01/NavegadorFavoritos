@@ -1,0 +1,79 @@
+.navigation{
+    width: 10vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navigation__section:not(#navigation__section){
+    margin-top: 2rem;
+    height: 70%;
+}
+#navigation__section{
+width: 4em;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.btn-add,.btn-eye, .btn-add-card{
+    fill: #FCFFE7;
+    width: 100%;
+    margin: 1rem 0 1rem 0;
+}
+
+.btn-category:not([btn-newCategory]){
+    margin: 0.8rem 0 0.8rem 0;
+}
+
+.btn-add:hover,.btn-eye:hover,.btn-category:hover{
+    filter: opacity(0.5);
+}
+
+.btn-exit:hover{
+    fill: red;
+}
+
+.btn-add-card{
+    transition: 0.3s;
+}
+.btn-add-card:hover{
+    transform: scale(1.4);
+}
+
+.btn-exit, .btn-add-card, .btn-add, .btn-eye, .btn-category{
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.seleccionado{
+    transform: scale(1.5) !important;
+}
+
+.rmvCategory{
+    width:.8rem;
+    fill: white;
+    cursor: pointer;
+    position: absolute;
+    transform: translateY(30%);
+  }
+
+  .rmvCategory:hover{
+      fill: red;
+  }
+
+
+
+
+  .divSvgExitCategory > svg{
+    fill: var(--background--violetDark);
+  }
+  
+  .divSvgExitCategory > :hover{
+    background-color: red;
+    fill: white;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  

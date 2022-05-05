@@ -1,0 +1,13 @@
+:root{
+   --background--violetDark : #251D3A; 
+}
+
+body{
+    display: flex;
+    background-color: var(--background--violetDark);
+}
+
+*{
+    box-sizing: content-box;
+    transition: 0.2s;
+}
